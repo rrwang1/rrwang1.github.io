@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STDCT</title>
+    <link>http://examplesite.org/</link>
+    <description>Recent content on STDCT</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This is the copyright.</copyright>
+    <lastBuildDate>Tue, 16 Jun 2020 10:00:00 +0800</lastBuildDate><atom:link href="http://examplesite.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NUS and NTU launch first-of-its-kind tropical data centre testbed</title>
+      <link>http://examplesite.org/blog/post-1/</link>
+      <pubDate>Tue, 16 Jun 2020 10:00:00 +0800</pubDate>
+      
+      <guid>http://examplesite.org/blog/post-1/</guid>
+      <description>New S$23 million programme to pioneer green and efficient cooling solutions for data centres located in the tropics to operate optimally.</description>
+    </item>
+    
+    <item>
+      <title>Adversus is a web-based dialer and practical CRM solution</title>
+      <link>http://examplesite.org/blog/post-4/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>http://examplesite.org/blog/post-4/</guid>
+      <description>Heading example Growing demand for efficient and sustainable data centres with cutting-edge infrastructure. Here is example of hedings.</description>
+    </item>
+    
+    <item>
+      <title>Adversus is a web-based dialer and practical CRM solution</title>
+      <link>http://examplesite.org/blog/post-5/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>http://examplesite.org/blog/post-5/</guid>
+      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+    </item>
+    
+    <item>
+      <title>Comparative Study of Different DC Cooling Solutions</title>
+      <link>http://examplesite.org/blog/post-6/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>http://examplesite.org/blog/post-6/</guid>
+      <description>Heading example Air Cooled Servers Racks VS. Immersion Cooling Racks and Liquid Cooled Servers Racks.</description>
+    </item>
+    
+    <item>
+      <title>Pump-up the team morale and celebrate the excellence</title>
+      <link>http://examplesite.org/blog/post-2/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>http://examplesite.org/blog/post-2/</guid>
+      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+    </item>
+    
+    <item>
+      <title>screens with built in Present and Dismiss animations.</title>
+      <link>http://examplesite.org/blog/post-3/</link>
+      <pubDate>Sat, 18 Apr 2020 10:07:21 +0600</pubDate>
+      
+      <guid>http://examplesite.org/blog/post-3/</guid>
+      <description>Heading example Here is example of hedings. You can use this heading by following markdownify rules.</description>
+    </item>
+    
+    <item>
+      <title>Implementation</title>
+      <link>http://examplesite.org/terms-conditions/ob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://examplesite.org/terms-conditions/ob/</guid>
+      <description>Description of implmentation. Description of implmentation. Description of implmentation. Description of implmentation. Description of implmentation.</description>
+    </item>
+    
+    <item>
+      <title>Objective of TDC 2.0</title>
+      <link>http://examplesite.org/terms-conditions/tdc_ob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://examplesite.org/terms-conditions/tdc_ob/</guid>
+      <description>This TDC 2.0 project aims to translate the results of TDC 1.0 into actual data centre deployment and adoption.</description>
+    </item>
+    
+    <item>
+      <title>Overview</title>
+      <link>http://examplesite.org/terms-conditions/ov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://examplesite.org/terms-conditions/ov/</guid>
+      <description>The Sustainable Tropical Data Centre Testbed (STDCT) is the first data centre testbed in the tropics, set up to enhance Singapore’s competitiveness in sustainable and efficient data centre solutions, for the region’s challenging high-temperature and humidity operations.</description>
+    </item>
+    
+    <item>
+      <title>Overview of TDC 2.0</title>
+      <link>http://examplesite.org/terms-conditions/tdc_ov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://examplesite.org/terms-conditions/tdc_ov/</guid>
+      <description>Abstract This TDC2 project plans to follow a translation model as illustrated in the above Figure.</description>
+    </item>
+    
+    <item>
+      <title>Research Tasks</title>
+      <link>http://examplesite.org/terms-conditions/tdc_tsk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://examplesite.org/terms-conditions/tdc_tsk/</guid>
+      <description>Quantifying Energy Saving Quantify energy savings of TDC in a standalone and mixed data center deployment scenarios  Measure of cooling energy, IT energy while capture the responses of the IT equipment to higher temperatures.</description>
+    </item>
+    
+    <item>
+      <title>Testbed Design</title>
+      <link>http://examplesite.org/terms-conditions/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://examplesite.org/terms-conditions/design/</guid>
+      <description>Layout Description of layouts. Description of layouts. Description of layouts. Description of layouts. Description of layouts.</description>
+    </item>
+    
+    <item>
+      <title>Testbed Design</title>
+      <link>http://examplesite.org/terms-conditions/tdc_ds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://examplesite.org/terms-conditions/tdc_ds/</guid>
+      <description>Server Room Design Description of Server Room Design. Description of Server Room Design. Description of Server Room Design.</description>
+    </item>
+    
+  </channel>
+</rss>
