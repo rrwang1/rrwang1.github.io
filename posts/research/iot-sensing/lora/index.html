@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LoRa radio sensing</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.d77e8171484c13bd478e107100bebb7c3abfe57e9546da67c9f850907b248921.css" integrity="sha256-136BcUhME71HjhBxAL67fDq/5X6VRtpnyfhQkHskiSE=" />
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/site/logo_hu37ec4b6c84af63351b69bab9f34996d1_193835_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="LoRa radio sensing" />
+<meta property="og:description" content="Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo
+Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rrwang1.github.io/posts/research/iot-sensing/lora/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-07-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-07-01T00:00:00+00:00" />
+
+
+    
+    
+<meta name="description" content="LoRa radio sensing" />
+
+
+    
+
+    
+
+
+
+
+</head>
+
+  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/site/logo_hu37ec4b6c84af63351b69bab9f34996d1_193835_42x0_resize_box_3.png" alt="Logo">
+      NTU IoT Sensing Group</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/site/logo_hu37ec4b6c84af63351b69bab9f34996d1_193835_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/site/logo_hu37ec4b6c84af63351b69bab9f34996d1_193835_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts/" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/research/">1. Research</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/intro/" title="Research Focus">Research Focus</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/security/">Security and privacy of AIoT sensing</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/security/secure/" title="Secure sensing in AIoT">Secure sensing in AIoT</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/security/privicy/" title="Privacy-preserving sensing in AIoT">Privacy-preserving sensing in AIoT</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/research/iot-sensing/">IoT sensing systems and applications</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/iot-sensing/powerline/" title="Powerline radiation sensing">Powerline radiation sensing</a></li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/research/iot-sensing/lora/" title="LoRa radio sensing">LoRa radio sensing</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/iot-sensing/building/" title="Building sensing">Building sensing</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/research/iot-sensing/acoustic/" title="Acoustic and imagery sensing">Acoustic and imagery sensing</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/">2. Members</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/faculty/" title="Faculty">Faculty</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/alumni/" title="Alumni">Alumni</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/phd/">PhD Candidates</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/yimin/" title="Yimin Dai">Yimin Dai</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/wenjie/" title="Wenjie Luo">Wenjie Luo</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/dongfang/" title="Dongfang Guo">Dongfang Guo</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/jiale/" title="Jiale Chen">Jiale Chen</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/rongrong/" title="Rongrong Wang">Rongrong Wang</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/phd/siyuan/" title="Siyuan Zhou">Siyuan Zhou</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/visit/">Visiting Students</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/visit/huimin/" title="Huimin Chen">Huimin Chen</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/members/visit/lilin/" title="Lilin Xu">Lilin Xu</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/call/">3. Call for Undergrads</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/call/achievements/" title="Undergrad achievements">Undergrad achievements</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/call/opportunity/" title="Opportunities for new undergrads">Opportunities for new undergrads</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/">4. Blog</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/conference/">Conference</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/aichallengeiot-2019/" title="AIChallengeIoT 2019">AIChallengeIoT 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/cps-iot-2023/" title="CPS-IoT 2023">CPS-IoT 2023</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/e-energy-2021-secon-2021/" title="e-Energy 2021 - SECON 2021">e-Energy 2021 - SECON 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/e-energy-2023/" title="e-Energy 2023">e-Energy 2023</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/embedded-al-2019/" title="Embedded AI Submit 2019">Embedded AI Submit 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ewsn-2019/" title="EWSN 2019">EWSN 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/fog-computing/" title="Fog Computing&#43; Workshop">Fog Computing&#43; Workshop</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ieee-pes-day-2021/" title="IEEE PES Day 2021">IEEE PES Day 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/iotdi-2019/" title="IoTDI 2019">IoTDI 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ipsn-2021/" title="IPSN 2021">IPSN 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ipsn-tpc-2020/" title="IPSN TPC 2020">IPSN TPC 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/isorc-2018/" title="ISORC 2018">ISORC 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/mobicom-2019/" title="MobiCom 2019">MobiCom 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ngcps-2018/" title="NGCPS 2018">NGCPS 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/sensys-2018/" title="SenSys 2018">SenSys 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/sensys-2019/" title="SenSys 2019">SenSys 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/sensys-2022/" title="SenSys 2022">SenSys 2022</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/conference/ubicomp-2018/" title="UobiComp 2018">UobiComp 2018</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/blog/event/">Event</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/chaojie-phd-def/" title="Chaojie PhD defense 2020">Chaojie PhD defense 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/career-zc/" title="CUHK and ZJU Faculty">CUHK and ZJU Faculty</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/hawaii-2018/" title="Hawaii 2018">Hawaii 2018</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/linshan-phd-def/" title="Linshan PhD defense 2021">Linshan PhD defense 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/los-cabos-2019/" title="Los Cabos 2019">Los Cabos 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/montreal-2019/" title="Montreal 2019">Montreal 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/newyork-2019/" title="New York 2019">New York 2019</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/qun-phd-def/" title="Qun PhD defense 2022">Qun PhD defense 2022</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/career-qun/" title="TU Delft Faculty">TU Delft Faculty</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/wenjie-phd-def/" title="Wenjie PhD defense 2023">Wenjie PhD defense 2023</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/zhenyu-award/" title="Zhenyu Award 2021">Zhenyu Award 2021</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/zhenyu-cov/" title="Zhenyu Convocation 2020">Zhenyu Convocation 2020</a></li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/blog/event/zhenyu-phd-def/" title="Zhenyu PhD defense 2020">Zhenyu PhD defense 2020</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/section/lora.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/site/logo_hu37ec4b6c84af63351b69bab9f34996d1_193835_120x120_fit_box_3.png' alt="Author Image">
+          <h5 class="author-name">NTU IoT Sensing Group </h5>
+          <p>Saturday, July 1, 2023</p>
+        </div>
+
+        <div class="title">
+          <h1>LoRa radio sensing</h1>
+        </div>
+        
+        <div class="taxonomy-terms">
+          <ul style="padding-left: 0;">
+            
+          </ul>
+        </div>
+        
+        <div class="post-content" id="post-content">
+          <blockquote>
+<p>Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo</p>
+</blockquote>
+<div style="margin-top: 3rem;"></div>
+<p>Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.g., wide areas, buildings, and underground structures) that have challenged the existing low-power short-range wireless technologies. Among various LPWAN technologies, we primarily focus on LoRaWAN due to its various advantages, such as the use of license-free industrial, scientific, and medical (ISM) frequency band, open data link layer specification, and low cost (several US dollars per unit).</p>
+<div style="margin-top: 3rem;"></div>
+<img src="/posts/research/images/lora/LPWAN_1.png"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<h3 id="one-hop-out-of-band-control-planes-using-lorawan">One-hop out-of-band control planes using LoRaWAN</h3>
+<p>Many IoT networks will still be based on low-power multi-hop wireless networks. In the last decade, many wireless sensor networks are Zigbee-based multi-hop wireless networks. The recently announced Bluetooth 5 has added support of mesh network topology. However, from an engineering point-of-view, multi-hop wireless networks are often fragile and difficult to manage. To improve the network performance and manageability, some multi-hop wireless networks, especially those deployed for mission-critical tasks, have adopted centralized network controls. WirelessHART and ISA100.11a are examples. However, these networks still adopt in-band control planes, that is, the control-plane messages such as network status reports and routing schedules are delivered by the data-plane networks. The coupling between the control and data planes in the in-band scheme may lead to undesirable consequences. For example, when the data plane loses key routing nodes (e.g., due to node hardware/software fault and depletion of battery) or the control plane makes wrong control decisions (e.g., due to design defects or erroneous human operations), the data-plane network may fall apart to disconnected partitions. As a result, restorative network control commands in the control plane may not be able to reach the destination nodes.</p>
+<p>A number of recent IoT node platforms are equipped with both short-range radio and LPWAN. For example, the OpenMote B platform and the TI CC1350 integrate both Zigbee and sub-GHz LPWAN radios; the TI CC1352R provides both BLE and sub-GHz LPWAN radios. Therefore, we propose to build one-hop out-of-band control planes using LPWAN and we choose LoRaWAN as the LPWAN technology to prototype our system called LoRaCP. The one-hop control planes will not be subject to the feasibility and manageability issues faced by the multi-hop data-plane networks. In addition, as the control-plane network only deliver key network status information and control commands, the bandwidth provision of LPWAN can meet the traffic demand of control-plane networks.</p>
+<p>      </p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/posts/research/images/lora/LoRaCP_0.png"
+    
+    
+        width="320px"
+    
+    
+    
+    
+>
+</td>
+<td> </td>
+<td><img src="/posts/research/images/lora/LoRaCP_1.png"
+    
+    
+        width="450px"
+    
+    
+    
+    
+>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The above figure shows our prototype LoRaCP end node and controller node, both providing Zigbee and LoRaWAN radios. We developed a software stack for LoRaCP to construct the control-plane network based on LoRaWAN radios. Our initial profiling experiments show that the TI CC1352R shown below (which is the CC1352R launchpad) can also support our approach of one-hop out-of-band control planes. The work of porting our software stack to CC1352R (the ported version can be called subG-CP) is in our plan.</p>
+<div style="margin-top: 3rem;"></div>
+<img src="/posts/research/images/lora/CC1352R.png"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<p>On a testbed of 16 LoRaCP nodes, we apply LoRaCP to separate the control-plane network of the Collection Tree Protocol (CTP) from its Zigbee-based data-plane network. LoRaCP brings substantial benefits such as increased frame delivery ratio in the presence of intensive Wi-Fi interference. This research was published on IEEE INFOCOM’18 (<a href="https://personal.ntu.edu.sg/tanrui/pub/LoRaCP-infocom.pdf" target="_blank" rel="noopener">PDF</a>) and ACM Transactions on Sensor Networks (<a href="https://personal.ntu.edu.sg/tanrui/pub/LoRaCP-TOSN.pdf" target="_blank" rel="noopener">PDF</a>).</p>
+<h3 id="attack-aware-data-timestamping-in-lorawan">Attack-aware data timestamping in LoRaWAN</h3>
+<p>LoRaWAN is promising for the applications of collecting low-rate data. Data samples need timestamps to make sense. In the traditional wireless sensor networks, the sensor nodes’ clocks are synchronized first, and then used to timestamp generated data. To tightly synchronize the sensor clocks, more network traffic for clock synchronization will be generated. This is bad for bandwidth-limited LoRaWAN. We showed that, since LoRaWAN follows a one-hop star network topology, the timestamping can be performed by the gateway upon the arrival of the data frame. This greatly saves the network bandwidth from the frequent clock synchronization.</p>
+<div style="margin-top: 3rem;"></div>
+<img src="/posts/research/images/lora/LoRaTS_0.png"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<p>However, this gateway-side timestamping is vulnerable to a frame delay attack that can be launched in three steps as shown in the above figure: (1) frame collision and eavesdropping, (2) data transfer, and (3) delay injection and frame replay. We conducted experiments in a campus network, and showed that, by setting up two attack devices (collider and eavesdropper) as shown in the below figure, all LoRaWAN end devices in the yellow polygon with an estimated area of 50,000 square meters will be affected by the attack.</p>
+<div style="margin-top: 3rem;"></div>
+<img src="/posts/research/images/lora/real_attack.png"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<p><em><strong>Vulnerable area of a campus LoRaWAN. (Satellite image credit: Google Map)</strong></em></p>
+<p>To preserve the bandwidth efficiency of the gateway-side timestamping and develop awareness of the delay attack to avoid being misled unknowingly by the attack, we integrate a low-power listen-only software-defined radio (RTL-SDR) with the commercial-off-the-shelf LoRaWAN gateway to form our LoRaTS gateway, as shown in the left part of the figure below. We develop a software stack, as shown in the right part of the figure below, consisting of various radio signal processing algorithms to detect the carrier frequency biases introduced by the replay steps of the frame delay attack. Overall, LoRaTS is a solution that strikes a satisfactory trade-off between network efficiency and the security level required by typical LoRaWAN applications in implementing data timestamping. This research was published on IEEE ICDCS’20 (<a href="https://github.com/tanrui/www/blob/master/pub/timestamping-ICDCS20.pdf" target="_blank" rel="noopener">PDF</a>).</p>
+<div style="margin-top: 3rem;"></div>
+<img src="/posts/research/images/lora/LoRaTS_1.png"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<h3 id="in-hall-localization-with-standard-lorawan-uplink-frames">In-Hall Localization with Standard LoRaWAN Uplink Frames</h3>
+<p>While LoRaWAN is mainly designed for establishing connectivity, being able to localize LoRaWAN devices unobtrusively using their uplink frames is desirable. The unobtrusiveness here means that no special software instrumentation is needed for the LoRaWAN end devices. As such, the localization service is free from entanglement with any other applications running on the LoRaWAN devices; the already deployed LoRaWANs can develop the localization capability seamlessly.</p>
+<p>We design and evaluate a time difference of arrival (TDoA)-based, unobtrusive in-hall LoRaWAN localization (ILLOC) system for any off-the-shelf LoRaWAN end devices. ILLOC deploys multiple software-defined radio (SDR)-based anchors with known positions and estimates the position of an end device based on the anchors’ TDoA measurements regarding any single uplink frame from the end device. The design of ILLOC faces two challenges: (1) Narrowband: LoRa signals use narrow frequency bands, thus are long and smooth in time domain. Without special treatment, the uncertainty of arrival time estimation with 125 kHz bandwidth is up to 8 microseconds, which is translated to 2.4 km distance in ranging. (2) Inter-anchor clock skews: tight synchronization of the anchors’ clocks (ideally, to nanoseconds accuracy) is a basis of TDoA-based multilateration. However, implementing highly accurate clock synchronization via cabling can incur large deployment overhead.</p>
+<div style="margin-top: 3rem;"></div>
+<img src="/posts/research/images/lora/illoc_system.png"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<p>To address these technical challenges, we propose the ILLOC system featuring two LoRaWAN-specific techniques: (1) the cross-correlation among the differential phase sequences (DPS) received by two anchors to estimate TDoA, exploiting LoRa&rsquo;s CCS characteristic; and (2) the just-in-time (JIT) synchronization enabled by a specially deployed LoRaWAN end device providing time reference upon detecting a target device’s transmission, using LoRa’s Channel Activity Detection (CAD) feature. In a long tunnel corridor, a 70 × 32 sqm sports hall, and a 110 × 70 sqm indoor plaza with extensive non-line-of-sight (NLOS) propagation paths, ILLOC achieves median localization errors of 6 m (with 2 anchors), 8.36 m (with 6 anchors), and 15.16 m (with 6 anchors and frame fusion), respectively. The achieved accuracy makes ILLOC useful for applications including zone-level asset tracking, misplacement detection, airport trolley management, and cybersecurity enforcement like detecting impersonation attacks launched by remote radios. This research was published on ACM IMWUT/UbiComp'22 (<a href="https://tanrui.github.io/pub/ILLOC-final.pdf" target="_blank" rel="noopener">PDF</a>).</p>
+<div style="margin-top: 3rem;"></div>
+<img src="/posts/research/images/lora/illoc_plaza,png"
+    
+    
+    
+    
+    
+        class="center"
+    
+>
+
+<div style="margin-top: 3rem;"></div>
+<p><em><strong>The indoor plaza deployment (with extensive NLOS paths). The crosses in the call-out figure are the localization results for position 5.</strong></em></p>
+<h3 id="bibliography">Bibliography</h3>
+<h4 id="our-research">Our research</h4>
+<p>[1] One-Hop Out-of-Band Control Planes for Low-Power Multi-Hop Wireless Networks. Chaojie Gu, Rui Tan, Xin Lou, Dusit Niyato. <em>The 37th Annual IEEE International Conference on Computer Communications (INFOCOM)</em>, April 15 - 19, 2018, Honolulu, HI.
+[2] One-hop Out-of-band Control Planes for Multi-hop Wireless Sensor Networks. Chaojie Gu, Rui Tan, Xin Lou. <em>ACM Transactions on Sensor Networks (TOSN)</em>. July 2019, Article No. 40.
+[3] Attack-Aware Data Timestamping in Low-Power Synchronization-Free LoRaWAN. Chaojie Gu, Linshan Jiang, Rui Tan, Mo Li, Jun Huang. <em>The 40th IEEE International Conference on Distributed Computing Systems (ICDCS)</em>, July 8-10, 2020, Singapore.
+[4] LoRa-Based Localization: Opportunities and Challenges. Chaojie Gu, Linshan Jiang, Rui Tan. <em>The 1st Workshop on Low Power Wide Area Networks for Internet of Things (LPNET), co-located with EWSN'19</em>, Feb 25, 2019, Beijing, China. Invited paper.
+[5] ILLOC: In-Hall Localization with Standard LoRaWAN Uplink Frames. Dongfang Guo, Chaojie Gu, Linshan Jiang, Wenjie Luo, Rui Tan. <em>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)</em>, March, 2022.</p>
+
+        </div>
+
+        
+        <div class="row pl-3 pr-3">
+        
+        <div class="col-md-6 share-buttons">
+        
+            <strong>Share on:</strong>
+            
+            <a class="btn btn-sm facebook-btn" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2frrwang1.github.io%2fposts%2fresearch%2fiot-sensing%2flora%2f" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            
+            
+                <a class="btn btn-sm twitter-btn" href="https://twitter.com/share?url=https%3a%2f%2frrwang1.github.io%2fposts%2fresearch%2fiot-sensing%2flora%2f&text=LoRa%20radio%20sensing&via=NTU%20IoT%20Sensing%20Group" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+            
+            
+            
+            
+            
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2frrwang1.github.io%2fposts%2fresearch%2fiot-sensing%2flora%2f&title=LoRa%20radio%20sensing" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+            
+            
+             
+            
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=LoRa%20radio%20sensing https%3a%2f%2frrwang1.github.io%2fposts%2fresearch%2fiot-sensing%2flora%2f" target="_blank">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+            
+            
+                <a class="btn btn-sm email-btn" href="mailto:?subject=LoRa%20radio%20sensing&body=https%3a%2f%2frrwang1.github.io%2fposts%2fresearch%2fiot-sensing%2flora%2f" target="_blank">
+                  <i class="fas fa-envelope-open-text"></i>
+                </a>
+            
+          
+          </div>
+
+        
+        
+        </div>
+
+
+
+      
+      <hr />
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+    
+    
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+<div class="row next-prev-navigator">
+  
+    <div class="col-md-6 previous-article">
+      <a href="/posts/research/iot-sensing/powerline/" title="Powerline radiation sensing" class="btn btn-outline-info">
+        <div><i class="fas fa-chevron-circle-left"></i> Prev</div>
+        <div class="next-prev-text">Powerline radiation sensing</div>
+      </a>
+    </div>
+  
+  
+      
+      
+        
+      
+      <div class="col-md-6 next-article">
+        <a href="/posts/research/iot-sensing/building/" title="Building sensing" class="btn btn-outline-info">
+          <div>Next <i class="fas fa-chevron-circle-right"></i></div>
+          <div class="next-prev-text">Building sensing</div>
+        </a>
+      </div>
+    
+</div>
+
+      <hr />
+
+      
+      
+
+      
+      
+
+      </div>
+    </div>
+  </div>
+  
+  <a id="scroll-to-top" class="btn"><i class="fas fa-chevron-circle-up"></i></a>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+  </section>
+
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">NTU IoT Sensing Group Copyright © 2021. All rights reserved.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.91f59729c47e36271f8f97bcd56f93957b4751fd44d43fa7b73ff6354ea73821.js" integrity="sha256-kfWXKcR&#43;Nicfj5e81W&#43;TlXtHUf1E1D&#43;ntz/2NU6nOCE=" defer></script>
+
+
+
+    
+     
+
+    
+    
+
+</body>
+</html>
