@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. Publications on NTU IoT Research Group</title>
+    <link>https://rrwang1.github.io/posts/papers/</link>
+    <description>Recent content in 2. Publications on NTU IoT Research Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://rrwang1.github.io/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Papers</title>
+      <link>https://rrwang1.github.io/posts/papers/pubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/papers/pubs/</guid>
+      <description>Conference and workshop Susceptibility of Autonomous Driving Agents to Learning-Based Action-Space Attacks. Yuting Wu, Pengfei Zhou, Xin Lou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. The 9th International Workshop on Safety and Security Intelligent Vehicle (SSIV) with DSN&#39;23, June 27, 2023, Porto, Portugal. PDF
+Effects of Learning-Based Action-Space Attacks on Autonomous Driving Agents.
+Yuting Wu, Xin Lou, Pengfei Zhou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. ICCPS Work-in-Progress session, May 9-12, 2023, San Antonio, Texas, USA.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

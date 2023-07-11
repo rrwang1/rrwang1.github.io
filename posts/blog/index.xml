@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>4. Blog on NTU IoT Research Group</title>
+    <title>5. Blog on NTU IoT Research Group</title>
     <link>https://rrwang1.github.io/posts/blog/</link>
-    <description>Recent content in 4. Blog on NTU IoT Research Group</description>
+    <description>Recent content in 5. Blog on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 27 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/posts/blog/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -32,6 +32,15 @@ Link to album</description>
       
       <guid>https://rrwang1.github.io/posts/blog/conference/cps-iot-2023/</guid>
       <description>Jiale, Wenjie, Yimin presented at CPS-IoT Week 2023 Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023. </description>
+    </item>
+    
+    <item>
+      <title>ICCPS 2023 Best Paper</title>
+      <link>https://rrwang1.github.io/posts/blog/conference/iccps-2023/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/blog/conference/iccps-2023/</guid>
+      <description>Jiale Chen&amp;rsquo;s work won best paper award at ICCPS 2023 Jiale’s work, “BubCam”, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System. Congratulations! </description>
     </item>
     
     <item>
