@@ -12,7 +12,7 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://rrwang1.github.io/posts/research/intro/</guid>
-      <description>1. IoT sensing systems and applications &amp;lt;img style=&amp;quot;float: center;&amp;quot; src=&amp;quot;/posts/research/images/powerline.png&amp;quot; alt=&amp;quot;image alt&amp;quot; width=&amp;quot;512px&amp;quot; position=&amp;quot;center&amp;quot;&amp;gt; a. Powerline radiation sensing &amp;lt;br&amp;gt; The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects. &amp;lt;img style=&amp;quot;float: center;&amp;quot; src=&amp;quot;/posts/research/images/lora.png&amp;quot; alt=&amp;quot;image alt&amp;quot; width=&amp;quot;512px&amp;quot; position=&amp;quot;center&amp;quot;&amp;gt; b.</description>
+      <description>1. IoT sensing systems and applications a. Powerline radiation sensing The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects. b. LoRa radio sensing LoRa is a low-power wide-area network (LPWAN) technology that can interconnect IoT objects distributed in large geographic areas or deep indoor/underground structures.</description>
     </item>
     
     <item>

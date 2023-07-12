@@ -6,14 +6,70 @@
     <description>Recent content in 2. Publications on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://rrwang1.github.io/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Papers</title>
+      <title>Conference and workshop papers</title>
       <link>https://rrwang1.github.io/posts/papers/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rrwang1.github.io/posts/papers/pubs/</guid>
-      <description>Conference and workshop Susceptibility of Autonomous Driving Agents to Learning-Based Action-Space Attacks. Yuting Wu, Pengfei Zhou, Xin Lou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. The 9th International Workshop on Safety and Security Intelligent Vehicle (SSIV) with DSN&#39;23, June 27, 2023, Porto, Portugal. PDF
-Effects of Learning-Based Action-Space Attacks on Autonomous Driving Agents.
-Yuting Wu, Xin Lou, Pengfei Zhou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. ICCPS Work-in-Progress session, May 9-12, 2023, San Antonio, Texas, USA.</description>
+      <description>Susceptibility of Autonomous Driving Agents to Learning-Based Action-Space Attacks. Yuting Wu, Pengfei Zhou, Xin Lou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. The 9th International Workshop on Safety and Security Intelligent Vehicle (SSIV) with DSN&#39;23, June 27, 2023, Porto, Portugal. PDF
+Effects of Learning-Based Action-Space Attacks on Autonomous Driving Agents. Yuting Wu, Xin Lou, Pengfei Zhou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. ICCPS Work-in-Progress session, May 9-12, 2023, San Antonio, Texas, USA.</description>
+    </item>
+    
+    <item>
+      <title>Journal papers</title>
+      <link>https://rrwang1.github.io/posts/papers/journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/papers/journal/</guid>
+      <description>NNFacet: Splitting Neural Network for Concurrent Smart Sensors. Jiale Chen, Duc Van Le, Rui Tan, Daren Ho. IEEE Transactions on Mobile Computing (TMC). In press. preprint
+On Credibility of Adversarial Examples against Learning-Based Grid Voltage Stability Assessment. Qun Song, Rui Tan, Chao Ren, Yan Xu, Yang Lou, Jianping Wang, Hoay Beng Gooi. IEEE Transactions on Dependable and Secure Computing (TDSC). Special Issue on Reliability and Robustness in AI-Based Cybersecurity Solutions.</description>
+    </item>
+    
+    <item>
+      <title>Thesis</title>
+      <link>https://rrwang1.github.io/posts/papers/thesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/papers/thesis/</guid>
+      <description>Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.
+Wenjie Luo
+Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions. Zhenyu Yan PDF
+Exploiting LoRaWAN for Efficient and Resilient IoT Networks. Chaojie Gu PDF
+Lightweight Privacy-Preserving Deep Learning and Inference in IoT.
+Linshang Jiang
+PDF
+Improving Security of Autonomous Cyber-Physical Systems against Adversarial Examples. Qun Song PDF</description>
+    </item>
+    
+    <item>
+      <title>Book chapters</title>
+      <link>https://rrwang1.github.io/posts/papers/book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/papers/book/</guid>
+      <description>Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.
+Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. Digital Manufacturing, Vol. 2. Elsevier.
+Lightweight Privacy-Preserving Machine Learning and Inference. Linshan Jiang and Rui Tan.
+Intelligent IoT for the Digital World (Eds. Yang Yang, Xu Chen, Rui Tan, Yong Xiao). Wiley. In production.
+Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li, and Rui Tan.</description>
+    </item>
+    
+    <item>
+      <title>Technical report</title>
+      <link>https://rrwang1.github.io/posts/papers/report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/papers/report/</guid>
+      <description> Tropical Data Centre Proof-of-Concept. Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. Technical Report, Nanyang Technological University, 2019. PDF </description>
+    </item>
+    
+    <item>
+      <title>Standard</title>
+      <link>https://rrwang1.github.io/posts/papers/standard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/papers/standard/</guid>
+      <description> Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023 Link </description>
     </item>
     
     

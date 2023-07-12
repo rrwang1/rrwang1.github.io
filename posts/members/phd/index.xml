@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PhD Candidates on NTU IoT Research Group</title>
+    <title>Postgraduate Researchers and Students on NTU IoT Research Group</title>
     <link>https://rrwang1.github.io/posts/members/phd/</link>
-    <description>Recent content in PhD Candidates on NTU IoT Research Group</description>
+    <description>Recent content in Postgraduate Researchers and Students on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="https://rrwang1.github.io/posts/members/phd/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Wenjie Luo</title>
@@ -12,24 +12,6 @@
       
       <guid>https://rrwang1.github.io/posts/members/phd/wenjie/</guid>
       <description>Position: PhD Student Contact: wenjie0057@gmail.com Bio: I received B.E. from NTU in 2015 and was admitted as a full-time research student at School of Computer Science and Engineering in 2019. My research interest isexploiting physical knowledge for AIoT. Personal website: https://www.linkedin.com/in/wen-jie-luo-258899b3/ Research projects: Acoustic sensing </description>
-    </item>
-    
-    <item>
-      <title>Dongfang Guo</title>
-      <link>https://rrwang1.github.io/posts/members/phd/dongfang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rrwang1.github.io/posts/members/phd/dongfang/</guid>
-      <description>Position: PhD Student, Research Associate Contact: dongfang.guo@ntu.edu.sg Bio: Dongfang Guo is a Ph.D student and Research Associate at SCSE, NTU. He received his B.Eng. degree from University of Electronic Science and Technology of China, and his M.Sc. degree from Nanyang Technological University, Singapore. His research interests lie in the field of Internet of Things and Cyber-Physical Systems. Research projects: LoRa radio sensing Acoustic and imagery sensing </description>
-    </item>
-    
-    <item>
-      <title>Jiale Chen</title>
-      <link>https://rrwang1.github.io/posts/members/phd/jiale/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rrwang1.github.io/posts/members/phd/jiale/</guid>
-      <description>Position: PhD Student, Research Associate Contact: +65 88708195 (Mobile phone) jiale.chen@ntu.edu.sg Bio: I am now a Ph.D student and research associate in HP/NTU Lab. I received my Master degree from Hong Kong University of Science and Technology in 2019. I got my bachelor degree from Southern China University of Technology in 2018. Research projects: Acoustic and imagery sensing </description>
     </item>
     
     <item>
@@ -42,6 +24,15 @@
     </item>
     
     <item>
+      <title>Dongfang Guo</title>
+      <link>https://rrwang1.github.io/posts/members/phd/dongfang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/members/phd/dongfang/</guid>
+      <description>Position: PhD Student, Research Associate Contact: dongfang.guo@ntu.edu.sg Bio: Dongfang Guo is a Ph.D student and Research Associate at SCSE, NTU. He received his B.Eng. degree from University of Electronic Science and Technology of China, and his M.Sc. degree from Nanyang Technological University, Singapore. His research interests lie in the field of Internet of Things and Cyber-Physical Systems. Research projects: LoRa radio sensing Acoustic and imagery sensing </description>
+    </item>
+    
+    <item>
       <title>Siyuan Zhou</title>
       <link>https://rrwang1.github.io/posts/members/phd/siyuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,12 +42,39 @@
     </item>
     
     <item>
+      <title>Jiale Chen</title>
+      <link>https://rrwang1.github.io/posts/members/phd/jiale/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/members/phd/jiale/</guid>
+      <description>Position: PhD Student, Research Associate Contact: +65 88708195 (Mobile phone) jiale.chen@ntu.edu.sg Bio: I am now a Ph.D student and research associate in HP/NTU Lab. I received my Master degree from Hong Kong University of Science and Technology in 2019. I got my bachelor degree from Southern China University of Technology in 2018. Research projects: Acoustic and imagery sensing </description>
+    </item>
+    
+    <item>
       <title>Yimin Dai</title>
       <link>https://rrwang1.github.io/posts/members/phd/yimin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rrwang1.github.io/posts/members/phd/yimin/</guid>
       <description>Position: PhD Student Contact: yimin004@e.ntu.edu.sg Bio: I am currently a PhD Student in school of computer science and engineering, Nanyang Technological University, Singapore. I obtained my bachelor degree in computing in The Hong Kong Polytechnic University in 2021 and master degree in school of computer science and engineering, Nanyang Technological University, Singapore, 2022. My research interest lies in novel applications in sensing systems and utilizing edge AI algorithm in boosting the performance of sensing systems.</description>
+    </item>
+    
+    <item>
+      <title>Yuting Wu</title>
+      <link>https://rrwang1.github.io/posts/members/phd/yuting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/members/phd/yuting/</guid>
+      <description>Position: Research Associate Contact: yuting.wu@ntu.edu.sg Bio: Yuting Wu received M.Sc. (2020) in Electrical and Electronic Engineering from Nanyang Technological University, Singapore, and his B.Eng degree in Automation from North-eastern University, China (2019). Previously, he was a Research Associate (2020-2021) at the Centre for System Intelligence and Efficiency, NTU, researching Reinforcement learning applications. Currently, He works as Research Associate on the SCALE project under Prof. Tan Rui. Research project: Acoustic and imagery sensing </description>
+    </item>
+    
+    <item>
+      <title>Zhuoran Chen</title>
+      <link>https://rrwang1.github.io/posts/members/phd/zhuoran/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rrwang1.github.io/posts/members/phd/zhuoran/</guid>
+      <description>Position: Project Officer Contact: chen1192@e.ntu.edu.sg Bio: Zhuoran Chen is a Project Officer at HP-NTU Digital Manufacturing Corporate Lab. He received his bachelor’s degree in computer engineering from Nanyang Technological University, Singapore, in 2021. His current research directions are 3D sensing and hardware acceleration in mobile computing. Research project: Acoustic and imagery sensing </description>
     </item>
     
     
