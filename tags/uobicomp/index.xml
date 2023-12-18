@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UobiComp on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/uobicomp/</link>
+    <link>https://ntuiot.xyz/tags/uobicomp/</link>
     <description>Recent content in UobiComp on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/uobicomp/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 09 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/uobicomp/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Ubicomp 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ubicomp-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</link>
       <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ubicomp-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</guid>
       <description>Qun’s paper presentation at UbiComp, Singapore, Oct, 2018 </description>
     </item>
     

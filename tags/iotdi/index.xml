@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IoTDI on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/iotdi/</link>
+    <link>https://ntuiot.xyz/tags/iotdi/</link>
     <description>Recent content in IoTDI on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/iotdi/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 17 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/iotdi/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>IoTDI 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/iotdi-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</link>
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/iotdi-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</guid>
       <description>Linshan&amp;rsquo;s paper presentation &amp;ldquo;On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects&amp;rdquo; at IoTDI, Montreal, Apr 2019. </description>
     </item>
     

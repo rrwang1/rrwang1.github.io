@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MobiCom on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/mobicom/</link>
+    <link>https://ntuiot.xyz/tags/mobicom/</link>
     <description>Recent content in MobiCom on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/mobicom/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/mobicom/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Los Cabos 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/event/los-cabos-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/los-cabos-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</guid>
       <description>Zhenyu and Rui at Los Cabos, Oct 2019. Twilights of Los Cabos. Sunrise in Cabos. Art walk at Cabo San Lucas Downtown. </description>
     </item>
     
     <item>
       <title>MobiCom 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/mobicom-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/mobicom-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</guid>
       <description>Zhenyu&amp;rsquo;s paper presentation at ACM MobiCom, Oct 2019 MobiCom 25th Anniversary, on a beach of Los Cabos, Oct 2019 MobiCom 2019 limited edition! </description>
     </item>
     

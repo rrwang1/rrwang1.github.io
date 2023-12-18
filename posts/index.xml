@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contents on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/posts/</link>
+    <link>https://ntuiot.xyz/posts/</link>
     <description>Recent content in Contents on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/posts/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Research Focus</title>
-      <link>https://rrwang1.github.io/posts/research/intro/</link>
+      <link>https://ntuiot.xyz/posts/research/intro/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/intro/</guid>
+      <guid>https://ntuiot.xyz/posts/research/intro/</guid>
       <description>1. IoT sensing systems and applications a. Powerline radiation sensing The periodic electric and magnetic fields emitted by the service power cables distributed in civil infrastructures provide both time and location information. Our research exploits these fields to develop clock synchronization, natural timestamping, localization, and device authentication services for indoor and wearable IoT objects. b. LoRa radio sensing LoRa is a low-power wide-area network (LPWAN) technology that can interconnect IoT objects distributed in large geographic areas or deep indoor/underground structures.</description>
     </item>
     
     <item>
       <title>Secure sensing in AIoT</title>
-      <link>https://rrwang1.github.io/posts/research/security/secure/</link>
+      <link>https://ntuiot.xyz/posts/research/security/secure/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/security/secure/</guid>
+      <guid>https://ntuiot.xyz/posts/research/security/secure/</guid>
       <description>Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan
 Image modified from this, credit goes to the source. Also refer to this paper for background
 By 2025, it is estimated that there will be more than 41.6 billion networked IoT devices. These IoT devices generate 79.4 zettabyes data yearly, which is almost twice of today’s whole Internet (44 zettabytes). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck.</description>
@@ -28,348 +28,348 @@ By 2025, it is estimated that there will be more than 41.6 billion networked IoT
     
     <item>
       <title>Privacy-preserving sensing in AIoT</title>
-      <link>https://rrwang1.github.io/posts/research/security/privicy/</link>
+      <link>https://ntuiot.xyz/posts/research/security/privicy/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/security/privicy/</guid>
+      <guid>https://ntuiot.xyz/posts/research/security/privicy/</guid>
       <description>Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)
 Privacy-Preserving Machine Learning in IoT As explained in our post, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems.</description>
     </item>
     
     <item>
       <title>Powerline radiation sensing</title>
-      <link>https://rrwang1.github.io/posts/research/iot-sensing/powerline/</link>
+      <link>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/iot-sensing/powerline/</guid>
+      <guid>https://ntuiot.xyz/posts/research/iot-sensing/powerline/</guid>
       <description>Main contributors from the group: Zhenyu Yan(topic coordinator), Qun Song, Rongrong Wang, Xu Liu, Linshan Jiang
 Electric power distribution networks penetrate into all civil infrastructures. The service powerlines emit both electric fields and magnetic fields. The electric fields are induced by the voltages of the powerlines, and the magnetic fields are induced by the currents going through the powerlines. Because the power networks provide alternating currents at a nominal frequency (e.</description>
     </item>
     
     <item>
       <title>LoRa radio sensing</title>
-      <link>https://rrwang1.github.io/posts/research/iot-sensing/lora/</link>
+      <link>https://ntuiot.xyz/posts/research/iot-sensing/lora/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/iot-sensing/lora/</guid>
+      <guid>https://ntuiot.xyz/posts/research/iot-sensing/lora/</guid>
       <description>Main contributors from the group: Chaojie Gu (topic coordinator), Linshan Jiang, Dongfang Guo
 Low-power wide-area networks (LPWANs) form an important class of wireless networks for many geographically distributed Internet-of-Things (IoT) objects. LPWANs form a new pole in the spectrum of power consumption versus communication ranges, as shown in the figure below. LPWANs’ long-range communication capabilities will increase the degree of connectivity of IoT and enable deep penetration of networked intelligence into urban territories (e.</description>
     </item>
     
     <item>
       <title>Building sensing</title>
-      <link>https://rrwang1.github.io/posts/research/iot-sensing/building/</link>
+      <link>https://ntuiot.xyz/posts/research/iot-sensing/building/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/iot-sensing/building/</guid>
+      <guid>https://ntuiot.xyz/posts/research/iot-sensing/building/</guid>
       <description>Main contributors from the group: Duc Van Le (topic coordinator), Rongrong Wang, Yingbo Liu (alumnus)
 We study the problems of sensing the environment conditions in a building and controlling various actuators to reduce the building’s energy consumption and maintain certain environmental condition levels when the load (e.g., IT equipment, human occupants) of the building varies over time. Dr. Rui Tan has early research works on residential power disaggregation by deploying wireless sensors in a nearly ad hoc way [1, 2], temperature field prediction [3] and cooling control [4] in computer rooms.</description>
     </item>
     
     <item>
       <title>Acoustic and imagery sensing</title>
-      <link>https://rrwang1.github.io/posts/research/iot-sensing/acoustic/</link>
+      <link>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/iot-sensing/acoustic/</guid>
+      <guid>https://ntuiot.xyz/posts/research/iot-sensing/acoustic/</guid>
       <description>Main contributors from the group: Wenjie Luo (topic coordinator), Qun Song, Chaojie Gu, Zhenyu Yan, Duc Van Le, Siyuan Zhou, Jiale Chen, Qiping (Joy) Yang
 The acoustic and imagery sensing modalities provide abundant information about the sensed target. As a result, the volume of an acoustic/imagery signal sample is often high and the data processing to extract useful information requires intensive computing. Such characteristics introduce various system challenges in data acquisition, computing, storage, and network transmission on networked sensing platforms with constrained processing capabilities, network bandwidth, and bounded energy supply.</description>
     </item>
     
     <item>
       <title>Wenjie PhD defense 2023</title>
-      <link>https://rrwang1.github.io/posts/blog/event/wenjie-phd-def/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</link>
       <pubDate>Tue, 27 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/wenjie-phd-def/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/wenjie-phd-def/</guid>
       <description>Wenjie completed his PhD defense on June 27th 2023. </description>
     </item>
     
     <item>
       <title>e-Energy 2023</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/e-energy-2023/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/e-energy-2023/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</guid>
       <description>ACM e-Energy&#39;23 held at Orlando has been successfully concluded, where Prof. Rui Tan served as a TPC Co-Chair. Link to album</description>
     </item>
     
     <item>
       <title>CPS-IoT 2023</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/cps-iot-2023/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/cps-iot-2023/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/cps-iot-2023/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/cps-iot-2023/</guid>
       <description>Group members Jiale Chen, Wenjie Luo, and Yimin Dai presented their works at CPS-IoT Week 2023. </description>
     </item>
     
     <item>
       <title>ICCPS 2023 Best Paper</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/iccps-2023/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/iccps-2023/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/iccps-2023/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/iccps-2023/</guid>
       <description>Group member Jiale Chen’s work, “BubCam”, won best paper award at The 14th ACM/IEEE International Conference on Cyber-Physical System. Congratulations! </description>
     </item>
     
     <item>
       <title>SenSys 2022</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/sensys-2022/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-2022/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2022/</guid>
       <description>Linshan and alumni Qun and Zhenyu presented their works on SenSys&#39;22, Boston. </description>
     </item>
     
     <item>
       <title>SenSys&#39;22</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/sensys-22/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/sensys-22/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-22/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-22/</guid>
       <description>Linshan&amp;rsquo;s work PriMask is selected as SenSys&#39;22 Best Paper Candidate. Congratulations! </description>
     </item>
     
     <item>
       <title>TU Delft Faculty</title>
-      <link>https://rrwang1.github.io/posts/blog/event/career-qun/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/career-qun/</link>
       <pubDate>Tue, 30 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/career-qun/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/career-qun/</guid>
       <description>Qun joined TU Delft as a tenure-track Assistant Professor on 30th Aug 2022. </description>
     </item>
     
     <item>
       <title>Linshan PhD defense 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/event/linshan-phd-def/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</link>
       <pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/linshan-phd-def/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/linshan-phd-def/</guid>
       <description>Linshan completed his PhD defense on Dec 6th 2021. </description>
     </item>
     
     <item>
       <title>Zhenyu Award 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/event/zhenyu-award/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/zhenyu-award/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-award/</guid>
       <description>Group graduate Dr. Zhenyu Yan won the Rising Star Award of ACM SIGBED China, 2021. Click for details</description>
     </item>
     
     <item>
       <title>CUHK and ZJU Faculty</title>
-      <link>https://rrwang1.github.io/posts/blog/event/career-zc/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/career-zc/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/career-zc/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/career-zc/</guid>
       <description>Dr. Zhenyu Yan and Dr. Chaojie joined the faculty of CUHK and ZJU. </description>
     </item>
     
     <item>
       <title>Qun PhD defense 2022</title>
-      <link>https://rrwang1.github.io/posts/blog/event/qun-phd-def/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</link>
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/qun-phd-def/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/qun-phd-def/</guid>
       <description>Qun completed her PhD defense, Aug 12th, 2022. </description>
     </item>
     
     <item>
       <title>e-Energy 2021 - SECON 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/e-energy-2021-secon-2021/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2021-secon-2021/</link>
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/e-energy-2021-secon-2021/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2021-secon-2021/</guid>
       <description>Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21 </description>
     </item>
     
     <item>
       <title>IPSN 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ipsn-2021/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ipsn-2021/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</guid>
       <description>Wenjie has presented our paper “PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems” on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations! </description>
     </item>
     
     <item>
       <title>IEEE PES Day 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ieee-pes-day-2021/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ieee-pes-day-2021/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</guid>
       <description>Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from an Air Free-Cooled Tropical Data Center Testbed (Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021. </description>
     </item>
     
     <item>
       <title>Zhenyu Convocation 2020</title>
-      <link>https://rrwang1.github.io/posts/blog/event/zhenyu-cov/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/zhenyu-cov/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-cov/</guid>
       <description>Zhenyu attended the NTU Convocation for the Class of 2020 and had his Ph.D. degree officially conferred. Rui also witnessed the ceremony. </description>
     </item>
     
     <item>
       <title>IPSN TPC 2020</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ipsn-tpc-2020/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ipsn-tpc-2020/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</guid>
       <description>IPSN TPC meeting , Washington University in St. Louis, Jan 2020. </description>
     </item>
     
     <item>
       <title>Chaojie PhD defense 2020</title>
-      <link>https://rrwang1.github.io/posts/blog/event/chaojie-phd-def/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/chaojie-phd-def/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/chaojie-phd-def/</guid>
       <description>Chaojie completed his PhD defense, Sep 22nd 2020. </description>
     </item>
     
     <item>
       <title>Zhenyu PhD defense 2020</title>
-      <link>https://rrwang1.github.io/posts/blog/event/zhenyu-phd-def/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/zhenyu-phd-def/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/zhenyu-phd-def/</guid>
       <description>Zhenyu completed his PhD defense, Feb 20th 2020. </description>
     </item>
     
     <item>
       <title>Embedded AI Submit 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/embedded-al-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/embedded-al-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</guid>
       <description>Embedded AI Submit 2019 at Shenzhen, Dec 2019 </description>
     </item>
     
     <item>
       <title>New York 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/event/newyork-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/newyork-2019/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/newyork-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/newyork-2019/</guid>
       <description>Central Park, New York, Nov 2019. </description>
     </item>
     
     <item>
       <title>SenSys 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/sensys-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2019/</guid>
       <description>Qun&amp;rsquo;s paper presentation &amp;ldquo;Moving Target Defense for Embedded Deep Visual Sensing against Adversarial Examples&amp;rdquo; at SenSys, New York, Nov 2019. </description>
     </item>
     
     <item>
       <title>AIChallengeIoT 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/aichallengeiot-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/aichallengeiot-2019/</link>
       <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/aichallengeiot-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/aichallengeiot-2019/</guid>
       <description>Paper presentation “Challenges of Privacy-Preserving Machine Learning in IoT”, at AIChallengeIoT&#39;19, New York, Nov 2019. </description>
     </item>
     
     <item>
       <title>Los Cabos 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/event/los-cabos-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/los-cabos-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/los-cabos-2019/</guid>
       <description>Zhenyu and Rui at Los Cabos, Oct 2019. Twilights of Los Cabos. Sunrise in Cabos. Art walk at Cabo San Lucas Downtown. </description>
     </item>
     
     <item>
       <title>MobiCom 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/mobicom-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/mobicom-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/mobicom-2019/</guid>
       <description>Zhenyu&amp;rsquo;s paper presentation at ACM MobiCom, Oct 2019 MobiCom 25th Anniversary, on a beach of Los Cabos, Oct 2019 MobiCom 2019 limited edition! </description>
     </item>
     
     <item>
       <title>IoTDI 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/iotdi-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</link>
       <pubDate>Wed, 17 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/iotdi-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/iotdi-2019/</guid>
       <description>Linshan&amp;rsquo;s paper presentation &amp;ldquo;On Lightweight Privacy-Preserving Collaborative Learning for Internet-of-Things Objects&amp;rdquo; at IoTDI, Montreal, Apr 2019. </description>
     </item>
     
     <item>
       <title>Montreal 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/event/montreal-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/montreal-2019/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/montreal-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/montreal-2019/</guid>
       <description>Twilight of Montreal, CPS-IoT Week, Apr 2019. </description>
     </item>
     
     <item>
       <title>EWSN 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ewsn-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ewsn-2019/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ewsn-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ewsn-2019/</guid>
       <description>Keynote &amp;ldquo;Cyber-Physical Approach to Resilient City-Scale IoT Systems&amp;rdquo;, The 1st workshop on Low Power Wide Area Networks for Internet of Things, EWSN&#39;19, Tsinghua University, Feb 2019. </description>
     </item>
     
     <item>
       <title>Fog Computing&#43; Workshop</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/fog-computing/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/fog-computing/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/fog-computing/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/fog-computing/</guid>
       <description>The 2nd Fog Computing+ Workshop: Trustworthy Fog, Dec 14th 2018, NTU Singapore. </description>
     </item>
     
     <item>
       <title>SenSys 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/sensys-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</guid>
       <description>The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018. </description>
     </item>
     
     <item>
       <title>Ubicomp 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ubicomp-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</link>
       <pubDate>Tue, 09 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ubicomp-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ubicomp-2018/</guid>
       <description>Qun’s paper presentation at UbiComp, Singapore, Oct, 2018 </description>
     </item>
     
     <item>
       <title>NGCPS 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ngcps-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ngcps-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</guid>
       <description>Workshop on Next-Generation Cyber-Physical Systems, Sep 15th 2018, University of Virginia. </description>
     </item>
     
     <item>
       <title>ISORC 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/isorc-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</link>
       <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/isorc-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</guid>
       <description>Landmark of Singapore, token on the banquet of ISORC&#39;18. </description>
     </item>
     
     <item>
       <title>Hawaii 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/event/hawaii-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/event/hawaii-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/event/hawaii-2018/</guid>
       <description>Chaojie and Rui at Maui, Hawaii. Apr 2018. </description>
     </item>
     
@@ -388,10 +388,10 @@ The acoustic and imagery sensing modalities provide abundant information about t
     
     <item>
       <title>Conference and workshop papers</title>
-      <link>https://rrwang1.github.io/posts/papers/pubs/</link>
+      <link>https://ntuiot.xyz/posts/papers/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/pubs/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
       <description>Orientation-Aware 3D SLAM in Alternating Magnetic Field from Powerlines.. Rongrong Wang, Rui Tan, Zhenyu Yan, Chris Xiaoxuan Lu. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT). The ACM International Joint Conference on Pervasive and Ubiquitous Computing (Ubicomp), October 5-9, 2024, Melbourne, Australia.
 PDF
 Susceptibility of Autonomous Driving Agents to Learning-Based Action-Space Attacks. Yuting Wu, Pengfei Zhou, Xin Lou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. The 9th International Workshop on Safety and Security Intelligent Vehicle (SSIV) with DSN&#39;23, June 27, 2023, Porto, Portugal.</description>
@@ -399,10 +399,10 @@ Susceptibility of Autonomous Driving Agents to Learning-Based Action-Space Attac
     
     <item>
       <title>Journal papers</title>
-      <link>https://rrwang1.github.io/posts/papers/journal/</link>
+      <link>https://ntuiot.xyz/posts/papers/journal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/journal/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
       <description>Design, Deployment, and Evaluation of an Industrial AIoT System for Quality Control at HP Factories. Duc Van Le, Joy Qiping Yang; Siyuan Zhou; Daren Ho; Rui Tan. ACM Transactions on Sensor Networks (TOSN). In press. Preprint
 Indoor Smartphone SLAM with Acoustic Echoes. Wenjie Luo, Qun Song, Zhenyu Yan, Rui Tan, Guosheng Lin. IEEE Transactions on Mobile Computing (TMC). In press. Preprint
 NNFacet: Splitting Neural Network for Concurrent Smart Sensors. Jiale Chen, Duc Van Le, Rui Tan, Daren Ho.</description>
@@ -410,10 +410,10 @@ NNFacet: Splitting Neural Network for Concurrent Smart Sensors. Jiale Chen, Duc 
     
     <item>
       <title>Thesis</title>
-      <link>https://rrwang1.github.io/posts/papers/thesis/</link>
+      <link>https://ntuiot.xyz/posts/papers/thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/thesis/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
       <description>Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.
 Wenjie Luo
 Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions. Zhenyu Yan PDF
@@ -426,10 +426,10 @@ Improving Security of Autonomous Cyber-Physical Systems against Adversarial Exam
     
     <item>
       <title>Book chapters</title>
-      <link>https://rrwang1.github.io/posts/papers/book/</link>
+      <link>https://ntuiot.xyz/posts/papers/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/book/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/book/</guid>
       <description>Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.
 Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. Digital Manufacturing, Vol. 2. Elsevier.
 Lightweight Privacy-Preserving Machine Learning and Inference. Linshan Jiang and Rui Tan.
@@ -439,145 +439,145 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
     
     <item>
       <title>Technical report</title>
-      <link>https://rrwang1.github.io/posts/papers/report/</link>
+      <link>https://ntuiot.xyz/posts/papers/report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/report/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/report/</guid>
       <description> Tropical Data Centre Proof-of-Concept. Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. Technical Report, Nanyang Technological University, 2019. PDF </description>
     </item>
     
     <item>
       <title>Standard</title>
-      <link>https://rrwang1.github.io/posts/papers/standard/</link>
+      <link>https://ntuiot.xyz/posts/papers/standard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/standard/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
       <description> Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023 Link </description>
     </item>
     
     <item>
       <title>Members</title>
-      <link>https://rrwang1.github.io/posts/members/team/</link>
+      <link>https://ntuiot.xyz/posts/members/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/team/</guid>
+      <guid>https://ntuiot.xyz/posts/members/team/</guid>
       <description>Faculty Rui Tan Associate Professor Postdoctoral Van Duc Le Senior research fellow Postgraduate Researchers and Students Dongfang Guo PhD Student Rongrong Wang PhD Student Siyuan Zhou PhD Student Jiale Chen PhD Student Yimin Dai PhD Student Zimo Ma PhD Student Yuting Wu Research Associate Zhuoran Chen Project Officer Visiting Students Huimin Chen Visiting Student (PhD candidate at ZJU) Alumni Zhenyu Yan (PhD student and Research Fellow; Joined the faculty of CUHK in 2021) Chaojie Gu (PhD student and Research Fellow; Joined the faculty of ZJU in 2021) Qun Song (PhD student; Joined the faculty of TU Delft in 2022) Linshan Jiang (PhD student and Research Fellow) Wenjie Luo (PhD student) Yingbo Liu (Research Fellow; Joined the faculty of YNUFE in 2019 ) Rutvij H.</description>
     </item>
     
     <item>
       <title>Faculty</title>
-      <link>https://rrwang1.github.io/posts/members/faculty/</link>
+      <link>https://ntuiot.xyz/posts/members/faculty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/faculty/</guid>
+      <guid>https://ntuiot.xyz/posts/members/faculty/</guid>
       <description>Rui Tan Position: Associate Professor Contact: tanrui@ntu.edu.sg Bio: Rui Tan (M&#39;08-SM&#39;18) is an Associate Professor at School of Computer Science and Engineering, Nanyang Technological University, Singapore. Previously, he was a Research Scientist (2012-2015) and a Senior Research Scientist (2015) at Advanced Digital Sciences Center, a Singapore-based research center of University of Illinois at Urbana-Champaign (UIUC), a Principle Research Affiliate (2012-2015) at Coordinated Science Lab of UIUC, and a postdoctoral Research Associate (2010-2012) at Department of Computer Science and Engineering, Michigan State University, East Lansing.</description>
     </item>
     
     <item>
       <title>Postdoctoral</title>
-      <link>https://rrwang1.github.io/posts/members/staff/</link>
+      <link>https://ntuiot.xyz/posts/members/staff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/staff/</guid>
+      <guid>https://ntuiot.xyz/posts/members/staff/</guid>
       <description>Duc Van Le Position: Research Fellow Contact: vdle@ntu.edu.sg Bio: Duc Van Le is research fellow at the HP-NTU Digital Manufacturing Corporate Lab, Nanyang Technological University (NTU), Singapore. He obtained his B.Eng. degree in electronics and telecommunications engineering from the Le Quy Don Technical University, Vietnam, and PhD degree in computer engineering from the University of Ulsan, South Korea, in 2011 and 2016, respectively. Before joining NTU, he worked as a research fellow at Department of Computer Science, National University of Singapore (NUS) from 2016 to 2018.</description>
     </item>
     
     <item>
       <title>Rongrong Wang</title>
-      <link>https://rrwang1.github.io/posts/members/phd/rongrong/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/rongrong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/rongrong/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/rongrong/</guid>
       <description>Position: PhD Student, Research Associate Contact: rrwang@ntu.edu.sg Bio: I received B.E. (2013) from Northwestern Polytechnical University in China M.S. (2017) from Nanyang Technological University. I am currently a Ph.D student in NTU. My research interest is advanced sensing and smart CPS environment. Publication: Control of Air Free-Cooled Data Centers in Tropics via Deep Reinforcement Learning. A Testbed and Data Yields for Studying Data Center Energy Efficiency and Reliability. Research projects: Building sensing Powerline radiation sensing </description>
     </item>
     
     <item>
       <title>Dongfang Guo</title>
-      <link>https://rrwang1.github.io/posts/members/phd/dongfang/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/dongfang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/dongfang/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/dongfang/</guid>
       <description>Position: PhD Student, Research Associate Contact: dongfang.guo@ntu.edu.sg Bio: Dongfang Guo is a Ph.D student and Research Associate at SCSE, NTU. He received his B.Eng. degree from University of Electronic Science and Technology of China, and his M.Sc. degree from Nanyang Technological University, Singapore. His research interests lie in the field of Internet of Things and Cyber-Physical Systems. Research projects: LoRa radio sensing Acoustic and imagery sensing </description>
     </item>
     
     <item>
       <title>Siyuan Zhou</title>
-      <link>https://rrwang1.github.io/posts/members/phd/siyuan/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/siyuan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/siyuan/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/siyuan/</guid>
       <description>Position: PhD Student, Research Associate Contact: siyuan.zhou@ntu.edu.sg Bio: I am currently a Ph.D student in school of computer science and engineering, Nanyang Technological University, Singapore. My currently research focuses on embedded deep visual sensing in industrial IoT. Research projects: Acoustic and imagery sensing </description>
     </item>
     
     <item>
       <title>Jiale Chen</title>
-      <link>https://rrwang1.github.io/posts/members/phd/jiale/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/jiale/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/jiale/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/jiale/</guid>
       <description>Position: PhD Student, Research Associate Contact: +65 88708195 (Mobile phone) jiale.chen@ntu.edu.sg Bio: I am now a Ph.D student and research associate in HP/NTU Lab. I received my Master degree from Hong Kong University of Science and Technology in 2019. I got my bachelor degree from Southern China University of Technology in 2018. Research projects: Acoustic and imagery sensing </description>
     </item>
     
     <item>
       <title>Yimin Dai</title>
-      <link>https://rrwang1.github.io/posts/members/phd/yimin/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/yimin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/yimin/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/yimin/</guid>
       <description>Position: PhD Student Contact: yimin004@e.ntu.edu.sg Bio: I am currently a PhD Student in school of computer science and engineering, Nanyang Technological University, Singapore. I obtained my bachelor degree in computing in The Hong Kong Polytechnic University in 2021 and master degree in school of computer science and engineering, Nanyang Technological University, Singapore, 2022. My research interest lies in novel applications in sensing systems and utilizing edge AI algorithm in boosting the performance of sensing systems.</description>
     </item>
     
     <item>
       <title>Zimo Ma</title>
-      <link>https://rrwang1.github.io/posts/members/phd/zimo/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/zimo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/zimo/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/zimo/</guid>
       <description>Position: Ph. D. Student Contact: zimo.ma@ntu.edu.sg Bio: Zimo Ma is currently a Ph.D. student at the School of Computer Science and Engineering at Nanyang Technological University. He completed the bachelor&amp;rsquo;s degree in 2020 and subsequently earned the master&amp;rsquo;s degree in 2023, both from Beihang University. Prior to the current studies, he served as a Research Associate in the Computer Networks and Communication Lab at NTU. </description>
     </item>
     
     <item>
       <title>Yuting Wu</title>
-      <link>https://rrwang1.github.io/posts/members/phd/yuting/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/yuting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/yuting/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/yuting/</guid>
       <description>Position: Research Associate Contact: yuting.wu@ntu.edu.sg Bio: Yuting Wu received M.Sc. (2020) in Electrical and Electronic Engineering from Nanyang Technological University, Singapore, and his B.Eng degree in Automation from North-eastern University, China (2019). Previously, he was a Research Associate (2020-2021) at the Centre for System Intelligence and Efficiency, NTU, researching Reinforcement learning applications. Currently, He works as Research Associate on the SCALE project under Prof. Tan Rui. Research project: Acoustic and imagery sensing </description>
     </item>
     
     <item>
       <title>Zhuoran Chen</title>
-      <link>https://rrwang1.github.io/posts/members/phd/zhuoran/</link>
+      <link>https://ntuiot.xyz/posts/members/phd/zhuoran/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/phd/zhuoran/</guid>
+      <guid>https://ntuiot.xyz/posts/members/phd/zhuoran/</guid>
       <description>Position: Project Officer Contact: chen1192@e.ntu.edu.sg Bio: Zhuoran Chen is a Project Officer at HP-NTU Digital Manufacturing Corporate Lab. He received his bachelor’s degree in computer engineering from Nanyang Technological University, Singapore, in 2021. His current research directions are 3D sensing and hardware acceleration in mobile computing. Research project: Acoustic and imagery sensing </description>
     </item>
     
     <item>
       <title>Huimin Chen</title>
-      <link>https://rrwang1.github.io/posts/members/visit/huimin/</link>
+      <link>https://ntuiot.xyz/posts/members/visit/huimin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/visit/huimin/</guid>
+      <guid>https://ntuiot.xyz/posts/members/visit/huimin/</guid>
       <description>Position: Visting Student Contact: N2207910A@e.ntu.edu.sg Bio: I am currently a Ph.D. student at the college of control science and engineering, Zhejiang University. I received my B.Eng. degree from Nanjing University of Aeronautics and Astronautics in 2018. Now I am a visiting student at NTU under Prof. Tan Rui, and my research interest lies in acoustic sensing. Research projects: Acoustic and imagery sensing </description>
     </item>
     
     <item>
       <title>Alumni</title>
-      <link>https://rrwang1.github.io/posts/members/alumni/</link>
+      <link>https://ntuiot.xyz/posts/members/alumni/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/members/alumni/</guid>
+      <guid>https://ntuiot.xyz/posts/members/alumni/</guid>
       <description> Zhenyu Yan PhD student and Research Fellow Joined faculty of CUHK in 2021 Chaojie Gu PhD student and Research Fellow Joined faculty of ZJU in 2021 Qun Song PhD student Joined faculty of TU Delft in 2022 Linshan Jiang PhD student and Research Fellow Wenjie Luo PhD student Joy Qiping Yang Project officer Yingbo Liu (Research Fellow; Joined the faculty of YNUFE in 2019 ) Rutvij H. Jhaveri (Research Fellow; Joined the faculty of PDEU India in 2019 ) Hangtai Li (Visiting Student) Mengyao Zheng (Visiting Student; Admitted to Harvard master program in 2021 ) Dixing Xu (Visiting Student) Chongrong Fang (Visiting Student; Joined the faculty of SJTU in 2021 ) Jue Tian (Visiting Student) Lilin Xu (Visiting Student) </description>
     </item>
     
     <item>
       <title>Undergrad achievements &amp; opportunities</title>
-      <link>https://rrwang1.github.io/posts/call/achievements/</link>
+      <link>https://ntuiot.xyz/posts/call/achievements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/call/achievements/</guid>
+      <guid>https://ntuiot.xyz/posts/call/achievements/</guid>
       <description>Undergrad achievements Our group has good interest and records in working with well motivated undergraduate students either from our own School and the external on research topics that we know. We guide them to read literature, perform hands-on work, and write the research report on a selected and timely topic, such that they can make their little but novel and publishable contributions. We believe that a senior undergraduate, if willing to undertake exploratory and challenging tasks, is ready for research.</description>
     </item>
     

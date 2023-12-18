@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>e-Energy on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/e-energy/</link>
+    <link>https://ntuiot.xyz/tags/e-energy/</link>
     <description>Recent content in e-Energy on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/e-energy/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/e-energy/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>e-Energy 2023</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/e-energy-2023/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</link>
       <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/e-energy-2023/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2023/</guid>
       <description>ACM e-Energy&#39;23 held at Orlando has been successfully concluded, where Prof. Rui Tan served as a TPC Co-Chair. Link to album</description>
     </item>
     
     <item>
       <title>e-Energy 2021 - SECON 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/e-energy-2021-secon-2021/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/e-energy-2021-secon-2021/</link>
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/e-energy-2021-secon-2021/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/e-energy-2021-secon-2021/</guid>
       <description>Qun, Siyuan, and Joy presented their papers at e-Energy&#39;21 and SECON&#39;21 </description>
     </item>
     

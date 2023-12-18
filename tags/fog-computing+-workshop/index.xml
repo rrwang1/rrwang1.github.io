@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fog Computing&#43; Workshop on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/fog-computing&#43;-workshop/</link>
+    <link>https://ntuiot.xyz/tags/fog-computing&#43;-workshop/</link>
     <description>Recent content in Fog Computing&#43; Workshop on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/fog-computing+-workshop/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/fog-computing+-workshop/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Fog Computing&#43; Workshop</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/fog-computing/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/fog-computing/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/fog-computing/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/fog-computing/</guid>
       <description>The 2nd Fog Computing+ Workshop: Trustworthy Fog, Dec 14th 2018, NTU Singapore. </description>
     </item>
     

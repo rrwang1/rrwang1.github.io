@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security and privacy of AIoT sensing on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/posts/research/security/</link>
+    <link>https://ntuiot.xyz/posts/research/security/</link>
     <description>Recent content in Security and privacy of AIoT sensing on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/posts/research/security/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/posts/research/security/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Secure sensing in AIoT</title>
-      <link>https://rrwang1.github.io/posts/research/security/secure/</link>
+      <link>https://ntuiot.xyz/posts/research/security/secure/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/security/secure/</guid>
+      <guid>https://ntuiot.xyz/posts/research/security/secure/</guid>
       <description>Main contributors from the group: Qun Song (topic coordinator), Zhenyu Yan
 Image modified from this, credit goes to the source. Also refer to this paper for background
 By 2025, it is estimated that there will be more than 41.6 billion networked IoT devices. These IoT devices generate 79.4 zettabyes data yearly, which is almost twice of today’s whole Internet (44 zettabytes). Transmitting such massive IoT data to the clouds for centralized processing will face communication bandwidth bottleneck.</description>
@@ -19,10 +19,10 @@ By 2025, it is estimated that there will be more than 41.6 billion networked IoT
     
     <item>
       <title>Privacy-preserving sensing in AIoT</title>
-      <link>https://rrwang1.github.io/posts/research/security/privicy/</link>
+      <link>https://ntuiot.xyz/posts/research/security/privicy/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/research/security/privicy/</guid>
+      <guid>https://ntuiot.xyz/posts/research/security/privicy/</guid>
       <description>Main contributors from the group: Linshan Jiang (topic coordinator), Chaojie Gu, Mengyao Zheng (alumnus), Dixing Xu (alumnus)
 Privacy-Preserving Machine Learning in IoT As explained in our post, a hybrid computing paradigm consisting of edge computing at the front end and cloud computing at the back end will prevail along with the formation of IoT as a global infrastructure. In addition, the deep neural network-based learning and inference will be important for improving the sensing performance of IoT systems.</description>
     </item>

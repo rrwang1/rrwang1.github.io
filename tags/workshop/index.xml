@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/workshop/</link>
+    <link>https://ntuiot.xyz/tags/workshop/</link>
     <description>Recent content in Workshop on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/workshop/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 14 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/workshop/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Fog Computing&#43; Workshop</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/fog-computing/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/fog-computing/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/fog-computing/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/fog-computing/</guid>
       <description>The 2nd Fog Computing+ Workshop: Trustworthy Fog, Dec 14th 2018, NTU Singapore. </description>
     </item>
     
     <item>
       <title>SenSys 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/sensys-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</link>
       <pubDate>Sun, 04 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/sensys-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/sensys-2018/</guid>
       <description>The DATA: Data Acquisition to Analysis Workshop, SenSys&#39;18, Shenzhen, Nov, 2018. </description>
     </item>
     
     <item>
       <title>NGCPS 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ngcps-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ngcps-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</guid>
       <description>Workshop on Next-Generation Cyber-Physical Systems, Sep 15th 2018, University of Virginia. </description>
     </item>
     
     <item>
       <title>ISORC 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/isorc-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</link>
       <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/isorc-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/isorc-2018/</guid>
       <description>Landmark of Singapore, token on the banquet of ISORC&#39;18. </description>
     </item>
     

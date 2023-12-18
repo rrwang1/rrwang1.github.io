@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IEEE EPS on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/ieee-eps/</link>
+    <link>https://ntuiot.xyz/tags/ieee-eps/</link>
     <description>Recent content in IEEE EPS on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/ieee-eps/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/ieee-eps/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>IEEE PES Day 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ieee-pes-day-2021/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ieee-pes-day-2021/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ieee-pes-day-2021/</guid>
       <description>Rui gave a talk titled &amp;ldquo;Experiences and Learned Lessons from an Air Free-Cooled Tropical Data Center Testbed (Dec 2017 – Dec 2019)&amp;rdquo; on IEEE PES Day 2021. </description>
     </item>
     

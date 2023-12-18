@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IPSN on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/ipsn/</link>
+    <link>https://ntuiot.xyz/tags/ipsn/</link>
     <description>Recent content in IPSN on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/ipsn/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/ipsn/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>IPSN 2021</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ipsn-2021/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ipsn-2021/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-2021/</guid>
       <description>Wenjie has presented our paper “PhyAug: Physics-Directed Data Augmentation for Deep Sensing Model Transfer in Cyber-Physical Systems” on the ACM/IEEE IPSN 2021, part of CPS Week 2021. The paper has also be selected as the Best Artifact Award Runner-up. Congratulations! </description>
     </item>
     
     <item>
       <title>IPSN TPC 2020</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ipsn-tpc-2020/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ipsn-tpc-2020/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ipsn-tpc-2020/</guid>
       <description>IPSN TPC meeting , Washington University in St. Louis, Jan 2020. </description>
     </item>
     

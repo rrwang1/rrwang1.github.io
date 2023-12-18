@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CPS on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/cps/</link>
+    <link>https://ntuiot.xyz/tags/cps/</link>
     <description>Recent content in CPS on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/cps/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 15 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/cps/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>NGCPS 2018</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/ngcps-2018/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/ngcps-2018/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/ngcps-2018/</guid>
       <description>Workshop on Next-Generation Cyber-Physical Systems, Sep 15th 2018, University of Virginia. </description>
     </item>
     

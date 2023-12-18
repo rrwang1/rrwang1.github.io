@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Embedded AI on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/tags/embedded-ai/</link>
+    <link>https://ntuiot.xyz/tags/embedded-ai/</link>
     <description>Recent content in Embedded AI on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://rrwang1.github.io/tags/embedded-ai/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Sat, 07 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://ntuiot.xyz/tags/embedded-ai/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Embedded AI Submit 2019</title>
-      <link>https://rrwang1.github.io/posts/blog/conference/embedded-al-2019/</link>
+      <link>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</link>
       <pubDate>Sat, 07 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/blog/conference/embedded-al-2019/</guid>
+      <guid>https://ntuiot.xyz/posts/blog/conference/embedded-al-2019/</guid>
       <description>Embedded AI Submit 2019 at Shenzhen, Dec 2019 </description>
     </item>
     

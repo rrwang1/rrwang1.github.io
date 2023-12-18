@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2. Publications on NTU IoT Research Group</title>
-    <link>https://rrwang1.github.io/posts/papers/</link>
+    <link>https://ntuiot.xyz/posts/papers/</link>
     <description>Recent content in 2. Publications on NTU IoT Research Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://rrwang1.github.io/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
+    <language>en</language><atom:link href="https://ntuiot.xyz/posts/papers/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Conference and workshop papers</title>
-      <link>https://rrwang1.github.io/posts/papers/pubs/</link>
+      <link>https://ntuiot.xyz/posts/papers/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/pubs/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/pubs/</guid>
       <description>Orientation-Aware 3D SLAM in Alternating Magnetic Field from Powerlines.. Rongrong Wang, Rui Tan, Zhenyu Yan, Chris Xiaoxuan Lu. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT). The ACM International Joint Conference on Pervasive and Ubiquitous Computing (Ubicomp), October 5-9, 2024, Melbourne, Australia.
 PDF
 Susceptibility of Autonomous Driving Agents to Learning-Based Action-Space Attacks. Yuting Wu, Pengfei Zhou, Xin Lou, Rui Tan, Zbigniew Kalbarczyk, Ravishankar K. Iyer. The 9th International Workshop on Safety and Security Intelligent Vehicle (SSIV) with DSN&#39;23, June 27, 2023, Porto, Portugal.</description>
@@ -18,10 +18,10 @@ Susceptibility of Autonomous Driving Agents to Learning-Based Action-Space Attac
     
     <item>
       <title>Journal papers</title>
-      <link>https://rrwang1.github.io/posts/papers/journal/</link>
+      <link>https://ntuiot.xyz/posts/papers/journal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/journal/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/journal/</guid>
       <description>Design, Deployment, and Evaluation of an Industrial AIoT System for Quality Control at HP Factories. Duc Van Le, Joy Qiping Yang; Siyuan Zhou; Daren Ho; Rui Tan. ACM Transactions on Sensor Networks (TOSN). In press. Preprint
 Indoor Smartphone SLAM with Acoustic Echoes. Wenjie Luo, Qun Song, Zhenyu Yan, Rui Tan, Guosheng Lin. IEEE Transactions on Mobile Computing (TMC). In press. Preprint
 NNFacet: Splitting Neural Network for Concurrent Smart Sensors. Jiale Chen, Duc Van Le, Rui Tan, Daren Ho.</description>
@@ -29,10 +29,10 @@ NNFacet: Splitting Neural Network for Concurrent Smart Sensors. Jiale Chen, Duc 
     
     <item>
       <title>Thesis</title>
-      <link>https://rrwang1.github.io/posts/papers/thesis/</link>
+      <link>https://ntuiot.xyz/posts/papers/thesis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/thesis/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/thesis/</guid>
       <description>Exploiting Sensor and Process Characteristics to Tackle Label Scarcity in AIoT Sensing.
 Wenjie Luo
 Exploiting Induced Skin Electric Potential for Body-Area IoT System Functions. Zhenyu Yan PDF
@@ -45,10 +45,10 @@ Improving Security of Autonomous Cyber-Physical Systems against Adversarial Exam
     
     <item>
       <title>Book chapters</title>
-      <link>https://rrwang1.github.io/posts/papers/book/</link>
+      <link>https://ntuiot.xyz/posts/papers/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/book/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/book/</guid>
       <description>Artificial Intelligence of Things for Industrial Visual Sensing Systems in HP&amp;rsquo;s Factories.
 Duc Van Le, Siyuan Zhou, Joy Qiping Yang, Jiale Chen, Daren Ho, Rui Tan. Digital Manufacturing, Vol. 2. Elsevier.
 Lightweight Privacy-Preserving Machine Learning and Inference. Linshan Jiang and Rui Tan.
@@ -58,19 +58,19 @@ Time Synchronization Management for Wide-Area Applications. Zhenyu Yan, Yang Li,
     
     <item>
       <title>Technical report</title>
-      <link>https://rrwang1.github.io/posts/papers/report/</link>
+      <link>https://ntuiot.xyz/posts/papers/report/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/report/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/report/</guid>
       <description> Tropical Data Centre Proof-of-Concept. Duc Van Le, Yingbo Liu; Rongrong Wang; Rui Tan. Technical Report, Nanyang Technological University, 2019. PDF </description>
     </item>
     
     <item>
       <title>Standard</title>
-      <link>https://rrwang1.github.io/posts/papers/standard/</link>
+      <link>https://ntuiot.xyz/posts/papers/standard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rrwang1.github.io/posts/papers/standard/</guid>
+      <guid>https://ntuiot.xyz/posts/papers/standard/</guid>
       <description> Deployment and Operation of Data Centre IT Equipment under Tropical Climate, Singapore Standard 697:2023 Link </description>
     </item>
     
