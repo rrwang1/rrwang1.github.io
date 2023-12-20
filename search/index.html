@@ -30,7 +30,7 @@ Setting a very low sitemap priority will tell search engines this is not importa
 This implementation uses Fusejs and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ntuiot.xyz/search/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://ntuiot.xyz/search/" /><meta property="article:section" content="notes" />
 <meta property="article:published_time" content="2010-06-08T08:06:25+06:00" />
 <meta property="article:modified_time" content="2010-06-08T08:06:25+06:00" />
 
@@ -54,7 +54,7 @@ Initial setup Search depends on additional output content type of JSON in config
 
 </head>
 
-  <body class="type-posts kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+  <body class="type-notes kind-page" data-spy="scroll" data-target="#TableOfContents" data-offset="80">
     <div class="container-fluid bg-dimmed wrapper">
       
       
@@ -150,198 +150,163 @@ Initial setup Search depends on additional output content type of JSON in config
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <li id="list-heading"><a href="/notes" data-filter="all">Notes</a></li>
             <div class="subtree">
                 
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/">1. Research</a>
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
       
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/intro/" title="Research Focus">Research Focus</a></li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/security/">Security and privacy of AIoT sensing</a>
       
-      <ul class="">
-        
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/security/secure/" title="Secure sensing in AIoT">Secure sensing in AIoT</a></li>
-  
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid note-card-holder" id="note-card-holder">
+      <p>This file exists solely to respond to /search URL with the related <code>search</code> layout template.</p>
+<p>No content shown here is rendered, all content is based in the template layouts/page/search.html</p>
+<p>Setting a very low sitemap priority will tell search engines this is not important content.</p>
+<p>This implementation uses Fusejs and mark.js</p>
+<h2 id="initial-setup">Initial setup</h2>
+<p>Search  depends on additional output content type of JSON in config.toml
+```
+[outputs]
+home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;]
+```</p>
+<h2 id="searching-additional-fileds">Searching additional fileds</h2>
+<p>To search additional fields defined in front matter, you must add it in 2 places.</p>
+<h3 id="edit-layouts_defaultindexjson">Edit layouts/_default/index.JSON</h3>
+<p>This exposes the values in /index.json
+i.e. add <code>category</code>
+```
+&hellip;
+&ldquo;contents&rdquo;:{{ .Content | plainify | jsonify }}
+{{ if .Params.tags }},
+&ldquo;tags&rdquo;:{{ .Params.tags | jsonify }}{{end}},
+&ldquo;categories&rdquo; : {{ .Params.categories | jsonify }},
+&hellip;
+```</p>
+<h3 id="edit-fusejs-options-to-search">Edit fuse.js options to Search</h3>
+<p><code>assets/scripts/pages/search.js</code>
+```
+keys: [
+&ldquo;title&rdquo;,
+&ldquo;contents&rdquo;,
+&ldquo;tags&rdquo;,
+&ldquo;categories&rdquo;
+]
+```</p>
 
-  
-  
-  
-  
-  
-    
-    <li><a class="" href="/posts/research/security/privicy/" title="Privacy-preserving sensing in AIoT">Privacy-preserving sensing in AIoT</a></li>
-  
+    </div>
+  </div>
+</section>
 
 
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/research/iot-sensing/">IoT sensing systems and applications</a>
       
-      <ul class="">
-        
-  
-  
-  
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
   
   
     
-    <li><a class="" href="/posts/research/iot-sensing/powerline/" title="Powerline radiation sensing">Powerline radiation sensing</a></li>
   
 
-  
-  
-  
   
   
     
-    <li><a class="" href="/posts/research/iot-sensing/lora/" title="LoRa radio sensing">LoRa radio sensing</a></li>
   
 
   
   
-  
+
   
   
     
-    <li><a class="" href="/posts/research/iot-sensing/building/" title="Building sensing">Building sensing</a></li>
-  
-
-  
-  
-  
-  
-  
     
-    <li><a class="" href="/posts/research/iot-sensing/acoustic/" title="Acoustic and imagery sensing">Acoustic and imagery sensing</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
-    
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/papers/">2. Publications</a>
       
-      <ul class="">
+    
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-3">
+      <div class="row text-left">
         
-  
-  
-  
-  
-  
+        
+        
+        
+      </div>
+    </div>
     
-    <li><a class="" href="/posts/papers/pubs/" title="Conference and workshop papers">Conference and workshop papers</a></li>
-  
-
-  
-  
-  
-  
-  
     
-    <li><a class="" href="/posts/papers/journal/" title="Journal papers">Journal papers</a></li>
-  
-
-  
-  
-  
-  
-  
     
-    <li><a class="" href="/posts/papers/thesis/" title="Thesis">Thesis</a></li>
-  
-
-  
-  
-  
-  
-  
+    <div class="container">
+      
+        <img src="/images/site/logo_hu7f8513698206be1b76723ad612f02b43_196744_32x0_resize_box_3.png" alt="Toha Theme Logo">
+        NTU IoT Research Group Copyright © 2021. All rights reserved. <br>
+            Webmasters: Chaojie Gu and Zhenyu Yan (06/2020-07/2021);
+            Dongfang Guo and Wenjie Luo (07/2021-06/2023); Rongrong Wang (07/2023-).
+        
+          </a>
+        </div>
+      </div>
+    </div>
     
-    <li><a class="" href="/posts/papers/book/" title="Book chapters">Book chapters</a></li>
-  
+  </footer>
 
-  
-  
-  
-  
-  
+
+    <script src="/application.91d71df530122cf45cefc617b86149f60a12d2152c0b60ac09aa413903dc954c.js" integrity="sha256-kdcd9TASLPRc78YXuGFJ9goS0hUsC2CsCapBOQPclUw=" defer></script>
+
+
+
     
-    <li><a class="" href="/posts/papers/report/" title="Technical report">Technical report</a></li>
-  
+     
 
-  
-  
-  
-  
-  
     
-    <li><a class="" href="/posts/papers/standard/" title="Standard">Standard</a></li>
-  
-
-
-      </ul>
-    </li>
-  
-
-  
-  
-  
-  
-  
     
-    <li>
-      <i class="fas fa-plus-circle"></i><a class="" href="/posts/members/">3. Team</a>
+
+</body>
+</html>
+Team</a>
       
       <ul class="">
         
